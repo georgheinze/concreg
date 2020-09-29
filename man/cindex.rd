@@ -79,7 +79,7 @@ gastric <-
               "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"
               ))
   
-
+library(survival)
 fit<-concreg(data=gastric, Surv(time,status)~treat, npar=TRUE)
 cindex(fit, confint=TRUE) ### nonparametric c-index with 95% confidence interval
  }

@@ -6,8 +6,8 @@
              of a pair of observations. The parameter estimates are estimated log odds of concordance and straightforwardly translate into partial concordance indices.
 }
 \usage{
-concreg(formula=attr(data, "formula"), 
- data=sys.parent(),                    
+concreg(formula, 
+ data,                    
  id=NULL,                              
  normalize=TRUE,
  scale.weights=1,
@@ -149,7 +149,7 @@ gastric <-
               "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"
               ))
   
-
+library(survival)
 fit<-concreg(data=gastric, Surv(time,status)~treat)
 summary(fit)
 

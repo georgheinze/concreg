@@ -16,4 +16,4 @@ S3method(vcov, concreg)
 S3method(confint, concreg)
 
 #### register shared objects (Fortran DLL):
-useDynLib(concreg)
+useDynLib(concreg,.registration=TRUE)
