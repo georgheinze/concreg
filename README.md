@@ -2,7 +2,7 @@
 
 ## Overview
 
-performs concordance regression, a semiparametric regression method to estimate generalized odds of concordance as proposed by Dunkler, Schemper and Heinze (2010) <doi:10.1093/bioinformatics/btq035>.
+performs concordance regression, a semiparametric regression method to estimate generalized odds of concordance as proposed by Dunkler, Schemper and Heinze (2010).
 
 ## Details
 
@@ -31,3 +31,11 @@ devtools::install_github("georgheinze/concreg")
 ## Usage
 
 see the manual for usage examples.
+
+## References
+
+Dunkler D, Schemper M and Heinze G (2010) [Gene selection in microarray survival studies under possibly non-proportional hazards](https://dx.doi.org/10.1093/bioinformatics/btq035) Bioinformatics 26(6), 784-790.
+
+Fine JP and Gray RJ (1999). [A Proportional Hazards Model for the Subdistribution of a Competing Risk](https://dx.doi.org/10.2307/2670170). Journal of the American Statistical Association 94, 496-509.
+
+Lin D and Wei L (1989). [The robust inference for the Cox proportional hazards model](https://dx.doi.org/10.2307/2290085). Journal of the American Statistical Association 84, 1074-1078.
