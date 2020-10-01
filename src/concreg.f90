@@ -404,6 +404,7 @@ INTEGER :: i,j,k,l,m, p
 
 intrinsic dabs
 
+k = 0
 IF ( n == 1 ) GO TO 110
 l = 0
 m = 1
