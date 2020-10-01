@@ -2,11 +2,12 @@
 #include <stdlib.h> // for NULL
 #include <R_ext/Rdynload.h>
 
-  /* .Fortran calls */
-extern void F77_NAME(concreg)(void *, void *, void *);
+
+/* .Fortran calls */
+extern void F77_NAME(concregfit)(void *, void *, void *);
 
 static const R_FortranMethodDef FortranEntries[] = {
-  {"concreg", (DL_FUNC) &F77_NAME(concreg), 3},
+  {"concregfit", (DL_FUNC) &F77_NAME(concregfit), 3},
   {NULL, NULL, 0}
 };
 

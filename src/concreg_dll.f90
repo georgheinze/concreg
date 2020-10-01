@@ -1,5 +1,5 @@
-SUBROUTINE CONCREG(cards, parms, IOARRAY)
-!DEC$ ATTRIBUTES DLLEXPORT :: CONCREG
+SUBROUTINE concregfit(cards, parms, IOARRAY)
+!DEC$ ATTRIBUTES DLLEXPORT :: concregfit
 
 IMPLICIT DOUBLE PRECISION (A-H,O-Z)  
 double precision, dimension (17) :: parms
@@ -46,7 +46,7 @@ iflag=int(ioarray(1,:))
 t=cards(:,ip+1+ioffset)
 ic=int(cards(:,ip+2+ioffset))    ! 0...censored, 1... event, 2... competing event
 wt=cards(:,ip+3+ioffset)    ! Gewicht zu den Zeitpunkten
-Gt=cards(:,ip+4+ioffset)    ! Follow-up-KM für competing event- gewichte
+Gt=cards(:,ip+4+ioffset)    ! Follow-up-KM f?r competing event- gewichte
 strata=int(cards(:,ip+6+ioffset))
 
 ! define stratamap: first indices of each stratum plus N+1
@@ -400,7 +400,7 @@ double precision, INTENT(OUT)                     :: w(N)
 double precision :: s,t
 INTEGER :: i,j,k,l,m, p
 
-!Anm GH bei den Dimensionen die Indizes verändert, waren v(lv,1) und w(1) vorher
+!Anm GH bei den Dimensionen die Indizes ver?ndert, waren v(lv,1) und w(1) vorher
 
 intrinsic dabs
 

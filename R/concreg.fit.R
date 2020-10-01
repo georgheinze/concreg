@@ -45,7 +45,7 @@ concreg.fit <- function(obj, id, W, G, PARMS, npar)
   storage.mode(CARDS) <- storage.mode(PARMS) <- storage.mode(IOARRAY) <- storage.mode(DFBETA) <- "double"
   #       dyn.load("concreg_dll.dll")
   #        dyn.load("D:\\WORK\\concreg_dll.dll")
-  value <- .Fortran("CONCREG",                                            #! anpassen
+  value <- .Fortran("concregfit",                                            #! anpassen
                     cards=CARDS,
                     outpar = PARMS,
                     outtab = IOARRAY)
