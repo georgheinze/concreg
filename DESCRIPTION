@@ -9,7 +9,7 @@ Depends: R (>= 3.0.0)
 Imports: survival
 Description: Implements concordance regression which can be used to estimate generalized odds of concordance.
 	Can be used for non- and semi-parametric survival analysis with non-proportional hazards, for binary and 
-    for continuous outcome data.
+    for continuous outcome data. The method was introduced by Dunkler, Schemper and Heinze (2010) <doi:10.1093/bioinformatics/btq035>.
 License: GPL
 URL: https://cemsiis.meduniwien.ac.at/kb/wf/software/statistische-software/concreg/
 LazyLoad: yes

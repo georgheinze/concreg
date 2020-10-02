@@ -36,6 +36,6 @@ see the manual for usage examples.
 
 Dunkler D, Schemper M and Heinze G (2010) [Gene selection in microarray survival studies under possibly non-proportional hazards](https://dx.doi.org/10.1093/bioinformatics/btq035) Bioinformatics 26(6), 784-790.
 
-Fine JP and Gray RJ (1999). [A Proportional Hazards Model for the Subdistribution of a Competing Risk](https://dx.doi.org/10.2307/2670170). Journal of the American Statistical Association 94, 496-509.
+Fine JP and Gray RJ (1999). [A Proportional Hazards Model for the Subdistribution of a Competing Risk](https://dx.doi.org/10.1080/01621459.1999.10474144). Journal of the American Statistical Association 94, 496-509.
 
-Lin D and Wei L (1989). [The robust inference for the Cox proportional hazards model](https://dx.doi.org/10.2307/2290085). Journal of the American Statistical Association 84, 1074-1078.
+Lin D and Wei L (1989). [The robust inference for the Cox proportional hazards model](https://dx.doi.org/10.1080/01621459.1989.10478874). Journal of the American Statistical Association 84, 1074-1078.
